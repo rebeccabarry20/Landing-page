@@ -16,31 +16,32 @@ header {
     margin-left:-10px;
     margin-right:-10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 150px;
-   
    
     
 }
 .welcome {
-    min-width: 500px;
+    
   
 }
 
 
-img {
+#skye {
     flex-shrink: 0;
     box-shadow: 10px 10px 5px;
     border-radius:10%;
-
+    margin-left: 10px;
+    
+    
 }
 
 #title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
     margin: 0px;
-    width: 500px;
+   
 }
 
 #after, a {
@@ -52,12 +53,16 @@ img {
     font-size: 24px;
     color: #F9FAF8;
     margin-top: 0px;
+    font-weight: 600;
+    font-family: cursive;
+    
 }
 
 body {
     display:flex;
     flex-direction:column;
-    justify-content:space-between
+    justify-content:space-between;
+    
 }
 .right {
     display: flex;
@@ -76,3 +81,34 @@ button {
 a {
     text-decoration: none;
 }
+
+.info {
+    text-align: center;
+    margin-top:10px;
+    width: 100%;
+    
+}
+
+#welc {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: auto;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    color:#1F2937;
+    gap: 30px;
+    
+    
+}
+
+.pair {
+    width: 150px;
+    
+}
+
