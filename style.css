@@ -1,14 +1,22 @@
 header {
     background-color: #1F2937;
     margin: -10px;
+    
+    
+    
 }
 
 .head {
     display:flex;
     justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
-    min-width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #1F2937;
+    margin: -10px;
+    
+    
+  
+    
 }
 
 .First {
@@ -16,22 +24,22 @@ header {
     margin-left:-10px;
     margin-right:-10px;
     display: flex;
-    justify-content: space-between;
-    padding: 150px;
+    justify-content: space-evenly;
+    padding: 100px;
    
     
 }
-.welcome {
-    
-  
-}
+
 
 
 #skye {
-    flex-shrink: 0;
+
     box-shadow: 10px 10px 5px;
     border-radius:10%;
     margin-left: 10px;
+    margin-top:60px;
+    Width: 150px;
+    height: 150px;
     
     
 }
@@ -62,11 +70,15 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    
+    font-family: roboto;
 }
 .right {
     display: flex;
     gap:40px;
+    flex-shrink: 0;
+}
+.left {
+    flex-shrink: 0;
 }
 
 button {
@@ -86,6 +98,8 @@ a {
     text-align: center;
     margin-top:10px;
     width: 100%;
+    font-size:12px
+   
     
 }
 
@@ -93,22 +107,80 @@ a {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: auto;
+   
 
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 100px;
     color:#1F2937;
     gap: 30px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
     
     
 }
 
 .pair {
-    width: 150px;
+  max-width: 150px;
+  border-bottom: dotted #1F2937;
+  
     
 }
 
+#hi {
+    border-radius: 10%;
+}
+
+.third {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    margin: -10px;
+    flex-direction: column;
+    padding:100px;
+    
+
+}
+
+
+.author {
+    
+    width: 100px;
+    margin-bottom:50px;
+    margin-right: 50px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.join {
+    border:solid #3882F6;
+    margin: 100px;
+    padding: 30px;
+    display: flex;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    justify-content: space-between;
+}
+
+
+
+
+.join button {
+    height:40px; 
+    border:solid #F9FAF8;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin:-20px;
+    text-align: center;
+    color:#E5E7EB;
+    padding:10px;
+    font-size: 10px;
+}
